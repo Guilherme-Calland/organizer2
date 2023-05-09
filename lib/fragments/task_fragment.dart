@@ -6,6 +6,7 @@ class TaskFragment extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
+    print('TAAAAAAAAAAAAAAAAASKS');
     return Navigator(
       onGenerateRoute: (routeSettings) => MaterialPageRoute(
         builder: (context) => Padding(
